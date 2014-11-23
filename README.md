@@ -6,9 +6,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-Tidy dataset generated based on the original dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+===Tidy dataset generated based on the original dataset from=== https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Attribute Information:
+===Attribute Information:===
 - There are 6 records (orderd by LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS) listed in tidy dataset. Each record indicates a specific type of activity.
 - Each record in the tidy dataset shows the average of each variable for a specific activity and each subject.
 
@@ -95,7 +95,7 @@ There are total 79 variables in tidy dataset listed below (same order listed in 
 79. fBodyBodyGyroJerkMag-meanFreq()
 
 
-R code explaination
+===R code explaination===
 
 - Before running the script please make sure that the working directory is set to the original data folder, "UCI HAR Dataset".
 
